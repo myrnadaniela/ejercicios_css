@@ -1,0 +1,18 @@
+.titulo_rojo{
+  color: red;
+  background-color: blue;
+}
+p{
+  font-size:16px;
+}
+
+.titulo_verde{
+  color: green;
+}
+#fuente_distinta{
+  font-style: italic;
+
+}
+.helvetica{
+  font-family:helvetica;
+}

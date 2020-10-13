@@ -1,0 +1,75 @@
+.menu {
+  background-color: red;
+  height: 75px;
+  display: flex;
+}
+
+.menu div {
+  background-color: grey;
+  height: 75px;
+  width: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 3px;
+}
+
+section .logo {
+  background-color: red;
+}
+
+.verde {
+  background-color: green;
+  height: 250px;
+  border-top: yellow 5px solid;
+  border-bottom: yellow 8px solid;
+}
+
+.azul{
+  background-color: blue;
+  display: flex;
+  height: 440px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.azul div{
+  background-color: grey;
+  width: 500px;
+  height: 95px;
+  margin: 7px;
+}
+.verde2{
+  background-color: green;
+  height: 50px;
+  border-top: yellow 10px solid;
+
+}
+
+@media (max-width: 500px) {
+
+.menu div{
+  display: none;
+}
+.menu .logo{
+  display: inline;
+  background-color: white;
+  width: 35%;
+}
+
+.azul div{
+    background-color:#9B3232;
+    width: 100%;
+    height: 50px;
+    margin: 1px;
+  }
+
+.azul{
+  height:460px;
+}
+.verde{
+  height: 400px;
+
+}
+}

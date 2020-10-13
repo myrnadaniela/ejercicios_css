@@ -1,0 +1,40 @@
+div{
+  border:  solid black;
+  background-color: red ;
+  height: 20vh;
+  width: 300px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding:0;
+}
+
+@media (max-width: 1024px) {
+  div{
+    border-style: dotted;
+    background: green;
+    width: 20%;
+    height:100px;
+    margin:10px 6% 10px 6px;
+    padding-top:4px;
+    padding-left:2px;
+    padding-right:3px;
+  }
+
+ }
+
+
+
+ @media (max-width:480px) {
+   div{
+     border:solid #6C0303;
+     background:green;
+     width:20%;
+     height:100px;
+     margin: 0;
+     padding: 0;
+     padding-right:9px;
+
+   }
+ }
